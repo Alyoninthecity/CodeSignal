@@ -22,14 +22,6 @@ Guaranteed constraints:
 
 The number of the century the year is in.
 
-[C++] Syntax Tips
-
-// Prints help message to the console
-// Returns a string
-string helloWorld(string name) {
-    cout << "This prints to the console when you Run Tests" << endl;
-    return "Hello, " + name;
-}
 */
 
 int centuryFromYear(int year)

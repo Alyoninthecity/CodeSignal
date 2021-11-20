@@ -24,15 +24,6 @@ Guaranteed constraints:
 
 true if inputString is a palindrome, false otherwise.
 
-[C++] Syntax Tips
-
-// Prints help message to the console
-// Returns a string
-string helloWorld(string name) {
-    cout << "This prints to the console when you Run Tests" << endl;
-    return "Hello, " + name;
-}
-
 */
 
 bool checkPalindrome(string inputString)

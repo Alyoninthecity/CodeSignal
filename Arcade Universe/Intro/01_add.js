@@ -24,14 +24,6 @@ Guaranteed constraints:
 
 The sum of the two inputs.
 
-[JavaScript] Syntax Tips
-
-//Prints help message to the console
-//Returns a string
-function helloWorld(name) {
-    console.log("This prints to the console when you Run Tests");
-    return "Hello, " + name;
-}
 */
 function add(param1, param2) {
     return param1 + param2;
