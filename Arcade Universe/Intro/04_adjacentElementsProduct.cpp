@@ -24,7 +24,8 @@ Guaranteed constraints:
 
 The largest product of adjacent elements.
 */
-int adjacentElementsProduct(vector<int> inputArray)
+#include <vector>
+int adjacentElementsProduct(std::vector<int> inputArray)
 {
     int max = 0;
     if (inputArray.size() > 1)

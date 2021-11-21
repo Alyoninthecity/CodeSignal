@@ -26,11 +26,11 @@ Guaranteed constraints:
 The element in a that occurs in the array more than once and has the minimal index for its second occurrence. If there are no such elements, return -1.
 */
 #include <vector>
-
-int solution(vector<int> a)
+#include <set>
+int solution(std::vector<int> a)
 {
     int r = -1;
-    set<int> b;
+    std::set<int> b;
     for (int i = 0; i < a.size(); i++)
     {
         if (b.count(a[i]))
