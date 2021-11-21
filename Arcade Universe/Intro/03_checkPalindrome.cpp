@@ -25,8 +25,8 @@ Guaranteed constraints:
 true if inputString is a palindrome, false otherwise.
 
 */
-
-bool checkPalindrome(string inputString)
+#include <string>
+bool checkPalindrome(std::string inputString)
 {
     int l = inputString.length();
     for (int i = 0; i < l / 2; i++)
